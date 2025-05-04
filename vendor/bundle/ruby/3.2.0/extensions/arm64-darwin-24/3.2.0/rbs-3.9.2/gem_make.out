@@ -1,0 +1,29 @@
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.2/ext/rbs_extension
+/Users/kokuboriki/.rbenv/versions/3.2.8/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-zy3i7p sitelibdir\=./.gem.20250504-62443-zy3i7p clean
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-zy3i7p sitelibdir\=./.gem.20250504-62443-zy3i7p
+compiling ./../../src/constants.c
+compiling ./../../src/ruby_objs.c
+compiling ./../../src/util/rbs_constant_pool.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling unescape.c
+linking shared-object rbs_extension.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-zy3i7p sitelibdir\=./.gem.20250504-62443-zy3i7p install
+/usr/bin/install -c -m 0755 rbs_extension.bundle ./.gem.20250504-62443-zy3i7p
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.9.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-zy3i7p sitelibdir\=./.gem.20250504-62443-zy3i7p clean

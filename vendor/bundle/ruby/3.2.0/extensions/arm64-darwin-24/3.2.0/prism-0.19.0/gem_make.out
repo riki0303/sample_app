@@ -1,0 +1,47 @@
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/ext/prism
+/Users/kokuboriki/.rbenv/versions/3.2.8/bin/ruby extconf.rb
+checking for prism.h in /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/include... yes
+checking for prism/extension.h in /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/ext... yes
+checking for whether -fvisibility=hidden is accepted as CFLAGS... yes
+compiling build/static/diagnostic.o
+compiling build/static/token_type.o
+compiling build/static/prettyprint.o
+compiling build/static/util/pm_strpbrk.o
+compiling build/static/util/pm_char.o
+compiling build/static/util/pm_memchr.o
+compiling build/static/util/pm_list.o
+compiling build/static/util/pm_strncasecmp.o
+compiling build/static/util/pm_state_stack.o
+compiling build/static/util/pm_string.o
+compiling build/static/util/pm_newline_list.o
+compiling build/static/util/pm_string_list.o
+compiling build/static/util/pm_buffer.o
+compiling build/static/util/pm_constant_pool.o
+compiling build/static/serialize.o
+compiling build/static/regexp.o
+compiling build/static/pack.o
+compiling build/static/prism.o
+compiling build/static/options.o
+compiling build/static/node.o
+compiling build/static/encoding.o
+building build/libprism.a
+ar: creating archive build/libprism.a
+creating Makefile
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-3n30z sitelibdir\=./.gem.20250504-62443-3n30z clean
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-3n30z sitelibdir\=./.gem.20250504-62443-3n30z
+compiling api_node.c
+compiling api_pack.c
+compiling extension.c
+linking shared-object prism/prism.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-3n30z sitelibdir\=./.gem.20250504-62443-3n30z install
+/usr/bin/install -c -m 0755 prism.bundle ./.gem.20250504-62443-3n30z/prism
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/prism-0.19.0/ext/prism
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-3n30z sitelibdir\=./.gem.20250504-62443-3n30z clean

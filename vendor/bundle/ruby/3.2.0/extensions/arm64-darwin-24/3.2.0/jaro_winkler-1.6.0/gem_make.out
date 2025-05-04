@@ -1,0 +1,22 @@
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+/Users/kokuboriki/.rbenv/versions/3.2.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-b04wfb sitelibdir\=./.gem.20250504-62443-b04wfb clean
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-b04wfb sitelibdir\=./.gem.20250504-62443-b04wfb
+compiling adj_matrix.c
+compiling codepoints.c
+compiling jaro.c
+compiling jaro_winkler.c
+linking shared-object jaro_winkler/jaro_winkler_ext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-b04wfb sitelibdir\=./.gem.20250504-62443-b04wfb install
+/usr/bin/install -c -m 0755 jaro_winkler_ext.bundle ./.gem.20250504-62443-b04wfb/jaro_winkler
+
+current directory: /Users/kokuboriki/rails_tutorial/sample_app/vendor/bundle/ruby/3.2.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\= sitearchdir\=./.gem.20250504-62443-b04wfb sitelibdir\=./.gem.20250504-62443-b04wfb clean
