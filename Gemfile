@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.8"
 
 gem "rails",           "7.0.4.3"
+gem "bcrypt",          "3.1.18"
 gem "bootstrap-sass",  "3.4.1"
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
@@ -15,6 +16,7 @@ gem "puma",            "5.6.8"
 gem "bootsnap",        "1.16.0", require: false
 gem "sqlite3",         "1.6.1"
 gem 'concurrent-ruby', '1.3.4'
+gem 'pry-rails'
 
 group :development, :test do
   gem 'reline', '0.5.10'
