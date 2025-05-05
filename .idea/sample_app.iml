@@ -588,6 +588,47 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="bcrypt (v3.1.18) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="該当なし" />
+              <option name="email" value="該当なし" />
+              <option name="homepage" value="該当なし" />
+              <option name="summary" value="該当なし" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="bcrypt" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18" />
+          <option name="version" value="3.1.18" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/.github" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/.github" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/bcrypt-3.1.18/.github" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="benchmark (v0.4.0) [path][gem]" type="rubylib">
         <properties>
           <option name="additionalInfo">
@@ -2609,6 +2650,44 @@
         </SOURCES>
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-0.15.2/bin" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pry-rails (v0.3.11) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="該当なし" />
+              <option name="email" value="該当なし" />
+              <option name="homepage" value="該当なし" />
+              <option name="summary" value="該当なし" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="pry-rails" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11" />
+          <option name="version" value="0.3.11" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/scenarios" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/scenarios" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/spec" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/pry-rails-0.3.11/scenarios" />
         </excluded>
       </library>
     </orderEntry>
